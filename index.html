@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,scale=1.0">
+	<title>fashionUp</title>
+	<link rel="stylesheet" href="assets/css/app.css">
+	<link rel="stylesheet" href="assets/css/media-query.css">
+	<link rel="stylesheet" href="assets/font/fontawesome-5.15.3/css/all.css">
+</head>
+<body>
+	<main class="main">
+		<!-- Nav Section -->
+		<nav id="nav">
+			<div class="container">
+				<div class="navbar-brand">
+					<a href="index.html">FashionUp</a>
+					<ul class="mobile-navbar-icon">
+						<li class="icon-item">
+							<a href="#"><i class="fas fa-user"></i></a>
+						</li>
+						<li class="icon-item">
+							<a href="#"><i class="fas fa-heart"></i></a>
+						</li>
+						<li class="icon-item">
+							<a href="#"><i class="fas fa-shopping-bag"></i></a>
+						</li>
+					</ul>
+					<span id="hambargar"><i class="fas fa-bars"></i></span>
+				</div>
+				<ul class="navbar-menu" id="navbar-menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#collection">Collection</a></li>
+					<li><a href="#products">Product</a></li>
+					<li><a href="#blog">Blog</a></li>
+				</ul>
+				<ul class="navbar-icon">
+					<input type="text" id="searh-input" placeholder="Search">
+					<button><i class="fas fa-search"></i></button>
+					<li class="icon-item">
+						<a href="#"><i class="fas fa-user"></i></a>
+					</li>
+					<li class="icon-item">
+						<a href="#"><i class="fas fa-heart"></i></a>
+					</li>
+					<li class="icon-item">
+						<a href="#"><i class="fas fa-shopping-bag"></i></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Slider Image Section -->
+		<section id="slider">
+			<div class="container">
+				<img src="assets/images/header1.jpg" id="slider1" class="slider active">
+				<img src="assets/images/header2.png" id="slider2" class="slider">
+				<img src="assets/images/header3.png" id="slider3" class="slider">
+				<div class="controls">
+					<button class="prev" id="prev_btn">
+						<i class="fas fa-chevron-left"></i> Prev
+					</button>
+					<button class="next" id="next_btn">
+						Next <i class="fas fa-chevron-right"></i>
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<!-- New Arrivals Section -->
+		<section id="new-arrival" class="products">
+			<div class="container">
+				<h2 class="text-center">New Arrivals</h2>
+				<p class="text-center mb-40">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor.</p>
+				<div class="cards">
+					<div class="card">
+						<img src="assets/images/photo1.jpg">
+						<div class="content">
+							<h4 class="text-center">Dress One</h4>
+							<div class="rating text-center">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<h4 class="text-center">$54</h4>
+						</div>
+						<div class="actions">
+							<span><i class="fas fa-heart"></i></span>
+							<span><i class="fas fa-shopping-bag"></i></span>
+							<span>
+								<a href="product-detail.html"><i class="fas fa-search"></i></a>
+							</span>
+						</div>
+					</div>
+					<div class="card">
+						<img src="assets/images/photo14.jpeg">
+						<div class="content">
+							<h4 class="text-center">Dress One</h4>
+							<div class="rating text-center">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<h4 class="text-center">$54</h4>
+						</div>
+						<div class="actions">
+							<span><i class="fas fa-heart"></i></span>
+							<span><i class="fas fa-shopping-bag"></i></span>
+							<span><i class="fas fa-search"></i></span>
+						</div>
+					</div>
+					<div class="card">
+						<img src="assets/images/photo7.png">
+						<div class="content">
+							<h4 class="text-center">Dress One</h4>
+							<div class="rating text-center">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<h4 class="text-center">$54</h4>
+						</div>
+						<div class="actions">
+							<span><i class="fas fa-heart"></i></span>
+							<span><i class="fas fa-shopping-bag"></i></span>
+							<span><i class="fas fa-search"></i></span>
+						</div>
+					</div>
+					<div class="card">
+						<img src="assets/images/photo4.jpg">
+						<div class="content">
+							<h4 class="text-center">Dress One</h4>
+							<div class="rating text-center">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<h4 class="text-center">$54</h4>
+						</div>
+						<div class="actions">
+							<span><i class="fas fa-heart"></i></span>
+							<span><i class="fas fa-shopping-bag"></i></span>
+							<span><i class="fas fa-search"></i></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Collection Section -->
+		<section id="collection">
+			<div class="container">
+				<div class="left">
+					<div class="card">
+						<img src="assets/images/collection-1.PNG">
+						<div class="content">
+							<h3>CLOTH COLLECTION</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<div class="card">
+						<img src="assets/images/collection-2.PNG">
+						<div class="content">
+							<h3>SHOE COLLECTION</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+						</div>
+					</div>
+					<div class="card">
+						<img src="assets/images/collection3.jpg">
+						<div class="content">
+							<h3>WATCH COLLECTION</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Popular Products Section -->
+		<section id="products" class="products">
+			<div class="container">
+				<h2 class="text-center">Popular Products</h2>
+				<p class="text-center mb-40">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor.</p>
+				<div class="filterable-btns">
+					<button class="active" id="all_btn">All</button>
+					<button id="cloth_btn">Cloth</button>
+					<button id="shoe_btn">Shoe</button>
+					<button id="watch_btn">Watch</button>
+				</div>
+				<div class="cards">
+					<div class="card pcard cloth">
+						<img src="assets/images/photo1.jpg">
+						<div class="content">
+							<h4 class="text-center">Dress One</h4>
+							<div class="rating text-center">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<h4 class="text-center">$54</h4>
+						</div>
+						<div class="actions">
+							<span><i class="fas fa-heart"></i></span>
+							<span><i class="fas fa-shopping-bag"></i></span>
+							<span><i class="fas fa-search"></i></span>
+						</div>
+					</div>
+					<div class="card pcard cloth">
+						<img src="assets/images/photo2.jpg">
+						<div class="content">
+							<h4 class="text-center">Dress One</h4>
+							<div class="rating text-center">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<h4 class="text-center">$54</h4>
+						</div>
+						<div class="actions">
+							<span><i class="fas fa-heart"></i></span>
+							<span><i class="fas fa-shopping-bag"></i></span>
+							<span><i class="fas fa-search"></i></span>
+						</div>
+					</div>
+					<div class="card pcard cloth">
+						<img src="assets/images/photo3.jpg">
+						<div class="content">
+							<h4 class="text-center">Dress One</h4>
+							<div class="rating text-center">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<h4 class="text-center">$54</h4>
+						</div>
+						<div class="actions">
+							<span><i class="fas fa-heart"></i></span>
+							<span><i class="fas fa-shopping-bag"></i></span>
+							<span><i class="fas fa-search"></i></span>
+						</div>
+					</div>
+					<div class="card pcard cloth">
+						<img src="assets/images/photo4.jpg">
+						<div class="content">
+							<h4 class="text-center">Dress One</h4>
+							<div class="rating text-center">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<h4 class="text-center">$54</h4>
+						</div>
+						<div class="actions">
+							<span><i class="fas fa-heart"></i></span>
+							<span><i class="fas fa-shopping-bag"></i></span>
+							<span><i class="fas fa-search"></i></span>
+						</div>
+					</div>
+					<div class="card pcard cloth">
+						<img src="assets/images/photo5.jpg">
+						<div class="content">
+							<h4 class="text-center">Dress One</h4>
+							<div class="rating text-center">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<h4 class="text-center">$54</h4>
+						</div>
+						<div class="actions">
+							<span><i class="fas fa-heart"></i></span>
+							<span><i class="fas fa-shopping-bag"></i></span>
+							<span><i class="fas fa-search"></i></span>
+						</div>
+					</div>
+					<div class="card pcard cloth">
+						<img src="assets/images/photo6.jpg">
+						<div class="content">
+							<h4 class="text-center">Dress One</h4>
+							<div class="rating text-center">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<h4 class="text-center">$54</h4>
+						</div>
+						<div class="actions">
+							<span><i class="fas fa-heart"></i></span>
+							<span><i class="fas fa-shopping-bag"></i></span>
+							<span><i class="fas fa-search"></i></span>
+						</div>
+					</div>
+					<div class="card pcard shoe">
+						<img src="assets/images/photo7.png">
+						<div class="content">
+							<h4 class="text-center">Dress One</h4>
+							<div class="rating text-center">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<h4 class="text-center">$54</h4>
+						</div>
+						<div class="actions">
+							<span><i class="fas fa-heart"></i></span>
+							<span><i class="fas fa-shopping-bag"></i></span>
+							<span><i class="fas fa-search"></i></span>
+						</div>
+					</div>
+					<div class="card pcard shoe">
+						<img src="assets/images/photo8.jpg">
+						<div class="content">
+							<h4 class="text-center">Dress One</h4>
+							<div class="rating text-center">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<h4 class="text-center">$54</h4>
+						</div>
+						<div class="actions">
+							<span><i class="fas fa-heart"></i></span>
+							<span><i class="fas fa-shopping-bag"></i></span>
+							<span><i class="fas fa-search"></i></span>
+						</div>
+					</div>
+					<div class="card pcard shoe">
+						<img src="assets/images/photo9.png">
+						<div class="content">
+							<h4 class="text-center">Dress One</h4>
+							<div class="rating text-center">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<h4 class="text-center">$54</h4>
+						</div>
+						<div class="actions">
+							<span><i class="fas fa-heart"></i></span>
+							<span><i class="fas fa-shopping-bag"></i></span>
+							<span><i class="fas fa-search"></i></span>
+						</div>
+					</div>
+					<div class="card pcard shoe">
+						<img src="assets/images/photo10.jpg">
+						<div class="content">
+							<h4 class="text-center">Dress One</h4>
+							<div class="rating text-center">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<h4 class="text-center">$54</h4>
+						</div>
+						<div class="actions">
+							<span><i class="fas fa-heart"></i></span>
+							<span><i class="fas fa-shopping-bag"></i></span>
+							<span><i class="fas fa-search"></i></span>
+						</div>
+					</div>
+					<div class="card pcard watch">
+						<img src="assets/images/photo11.jpg">
+						<div class="content">
+							<h4 class="text-center">Dress One</h4>
+							<div class="rating text-center">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<h4 class="text-center">$54</h4>
+						</div>
+						<div class="actions">
+							<span><i class="fas fa-heart"></i></span>
+							<span><i class="fas fa-shopping-bag"></i></span>
+							<span><i class="fas fa-search"></i></span>
+						</div>
+					</div>
+					<div class="card pcard watch">
+						<img src="assets/images/photo12.jpg">
+						<div class="content">
+							<h4 class="text-center">Dress One</h4>
+							<div class="rating text-center">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<h4 class="text-center">$54</h4>
+						</div>
+						<div class="actions">
+							<span><i class="fas fa-heart"></i></span>
+							<span><i class="fas fa-shopping-bag"></i></span>
+							<span><i class="fas fa-search"></i></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Fashion Blog Section -->
+		<section id="blog">
+			<div class="container">
+				<h2 class="text-center">Fashion Blog</h2>
+				<p class="text-center mb-40">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor.</p>
+				<div class="cards">
+					<div class="card">
+						<img src="assets/images/blog1.jpg">
+						<div class="content">
+							<h4>Blog Title - Something</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut</p>
+							<span class="date">08 March</span>
+						</div>
+					</div>
+					<div class="card">
+						<img src="assets/images/blog2.jpg">
+						<div class="content">
+							<h4>Blog Title - Something</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut</p>
+							<span class="date">04 March</span>
+						</div>
+					</div>
+					<div class="card">
+						<img src="assets/images/collection-1.PNG">
+						<div class="content">
+							<h4>Blog Title - Something</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut</p>
+							<span class="date">01 March</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- News Letter Section -->
+		<section id="news-letter">
+			<div class="container">
+				<h2 class="text-center">Subscribe To Our News Letter</h2>
+				<p class="text-center mb-40">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor.</p>
+				<form>
+					<input type="text" placeholder="Email">
+					<button>Subscribe</button>
+				</form>
+			</div>
+		</section>
+
+		<!-- Footer Section -->
+		<footer id="footer">
+			<div class="container">
+				<ul>
+					<li><h4>About Us</h4></li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</li>
+					<li>
+						<img src="assets/images/master_card.jpg">
+						<img src="assets/images/visa.png">
+						<img src="assets/images/kbzpay.png">
+						<img src="assets/images/cb_pay.jpg">
+					</li>
+				</ul>
+				<ul>
+					<li><h4>Useful Links</h4></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#collection">Collection</a></li>
+					<li><a href="#products">Product</a></li>
+					<li><a href="#blog">Blog</a></li>
+				</ul>
+				<ul>
+					<li><h4>Contact Infos</h4></li>
+					<li>fashionup@gmail.com</li>
+					<li>09-121212121/ 09-232323232</li>
+					<li class="social-medias">
+						<a href="#"><i class="fab fa-facebook"></i></a>
+						<a href="#"><i class="fab fa-youtube"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-linkedin"></i></a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+
+		<a href="#slider" id="gototop">
+			<i class="fas fa-arrow-up"></i>
+		</a>
+	</main>
+
+
+	<script src="assets/js/app.js"></script>
+</body>
+</html>
